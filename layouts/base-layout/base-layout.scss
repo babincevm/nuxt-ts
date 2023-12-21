@@ -1,0 +1,18 @@
+.base-layout {
+  --v-layout-left: 10px;
+  --v-layout-right: 10px;
+  --v-layout-top: 10px;
+  --v-layout-bottom: 10px;
+
+  &__bar {
+    &--transparent {
+      --v-theme-surface: transparent;
+      backdrop-filter: blur(7px);
+    }
+
+    &--white {
+      --v-theme-surface: 255, 255, 255;
+      --v-theme-on-surface: 33, 33, 33;
+    }
+  }
+}

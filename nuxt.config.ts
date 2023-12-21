@@ -8,4 +8,8 @@ export default defineNuxtConfig({
     build: {
         transpile: ['vuetify'],
     },
+    app: {
+        baseURL: '/nuxt-ts/',
+        buildAssetsDir: 'assets',
+    }
 })

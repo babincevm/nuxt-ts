@@ -1,75 +1,9 @@
-# Nuxt 3 Minimal Starter
+Написать простое приложение на nuxt3/typescript - две страницы.
+Шапка имеет прозрачный фон на главной, на второй - заливается белым, цвет текста в ней тоже меняется для читаемости, в футере простой текст/копирайт.
+На главной аккордеон - хорошо бы, чтобы его можно легко переиспользовать. Вторую страницу можно заполнить чем угодно, хоть текст-рыбой. И куда-нибудь воткнуть кастомный компонент-чекбокс
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Над дизайном можно сильно не заморачиваться, цвета/шрифты любые на свой вкус
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Дополнительно реализовать модальное окно типа sidepanel (в element ui это ещё называется drawer)
+Оно должно иметь возможность содержать многоуровневое вложение таких же панелек - для примера, многоуровневое меню, где клик по пункту меню открывает панель, отображающую пункты подменю. Соответственно, нужна возможность вернуться на предыдущую панель.
+Для демонстрации можно на этом примере и остановиться - пусть это будет многоуровневое меню. Упор сделать на максимальном пере использовании и расширяемости компонента - он может понадобиться не только для меню
